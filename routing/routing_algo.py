@@ -48,6 +48,7 @@ def energy_aware_cost(u, v, link):
 
 
 
+
 def eqos_cost(u, v, link):
     battery_ratio = ENERGY[v] / INITIAL_ENERGY[v]
 
@@ -58,11 +59,11 @@ def eqos_cost(u, v, link):
     congestion_cost = link["congestion"]
 
     return (
-        0.20 * energy_cost
-        + 0.50 * battery_penalty
+        0.15 * energy_cost
+        + 0.35 * battery_penalty
         + 0.15 * delay_cost
-        + 0.10 * loss_cost
-        + 0.05 * congestion_cost
+        + 0.15 * loss_cost
+        + 0.20 * congestion_cost
     )
 
 
