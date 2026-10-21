@@ -1,0 +1,37 @@
+scenario,link,tested_value,algorithm,route,routing_cost,energy_j,delay_ms,estimated_pdr_pct,average_congestion
+reliability,S-B,0.6,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+reliability,S-B,0.6,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,57.62,0.1
+reliability,S-B,0.6,Proposed E-QoS,S -> B -> D -> G,0.8835,1.5,6.0,57.62,0.1
+reliability,S-B,0.8,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+reliability,S-B,0.8,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,76.83,0.1
+reliability,S-B,0.8,Proposed E-QoS,S -> B -> D -> G,0.8535,1.5,6.0,76.83,0.1
+reliability,S-B,0.98,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+reliability,S-B,0.98,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+reliability,S-B,0.98,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+congestion,S-B,0.1,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+congestion,S-B,0.1,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+congestion,S-B,0.1,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+congestion,S-B,0.5,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+congestion,S-B,0.5,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.233
+congestion,S-B,0.5,Proposed E-QoS,S -> B -> D -> G,0.9065,1.5,6.0,94.12,0.233
+congestion,S-B,0.9,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+congestion,S-B,0.9,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.367
+congestion,S-B,0.9,Proposed E-QoS,S -> A -> D -> G,0.9207,2.3,15.0,92.17,0.267
+reliability,A-D,0.4,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+reliability,A-D,0.4,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+reliability,A-D,0.4,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+reliability,A-D,0.6,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+reliability,A-D,0.6,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+reliability,A-D,0.6,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+reliability,A-D,0.95,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+reliability,A-D,0.95,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+reliability,A-D,0.95,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+congestion,A-D,0.1,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+congestion,A-D,0.1,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+congestion,A-D,0.1,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+congestion,A-D,0.5,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+congestion,A-D,0.5,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+congestion,A-D,0.5,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
+congestion,A-D,0.9,Minimum-hop,S -> A -> C -> G,3.0,3.0,15.0,97.03,0.2
+congestion,A-D,0.9,Energy-aware,S -> B -> D -> G,1.41,1.5,6.0,94.12,0.1
+congestion,A-D,0.9,Proposed E-QoS,S -> B -> D -> G,0.8265,1.5,6.0,94.12,0.1
